@@ -4,5 +4,15 @@
 using namespace std;
 int main ()
 {
-    
+    int age;
+    cout<<"Enter Your Age : ";
+    cin>>age;
+    if(age<=12 || age >=65)
+    {
+        cout<<"Qualifyed for a discounted ticket";
+    }
+    else
+    {
+        cout<<"Not qualifyed for a discounted ticket";
+    }
 }

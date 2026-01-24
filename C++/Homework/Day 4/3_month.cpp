@@ -4,5 +4,59 @@
 using namespace std;
 int main ()
 {
-    
+    int n;
+    cout<<"Enter A Number : ";
+    cin>>n;
+    if(n==1)
+    {
+        cout<<"Jan";
+    }
+    else if(n==2)
+    {
+        cout<<"Fab";
+    }
+    else if(n==3)
+    {
+        cout<<"Mar";
+    }
+    else if(n==4)
+    {
+        cout<<"April";
+    }
+    else if(n==5)
+    {
+        cout<<"May";
+    }
+    else if(n==6)
+    {
+        cout<<"Jun";
+    }
+    else if(n==7)
+    {
+        cout<<"July";
+    }
+    else if(n==9)
+    {
+        cout<<"Aug";
+    }
+    else if(n==9)
+    {
+        cout<<"Sept";
+    }
+    else if(n==10)
+    {
+        cout<<"Oct";
+    }
+    else if(n==11)
+    {
+        cout<<"Nov";
+    }
+    else if(n==12)
+    {
+        cout<<"Dec";
+    }
+    else
+    {
+        cout<<"Invalid Entry";
+    }
 }
